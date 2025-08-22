@@ -1,0 +1,15 @@
+# MLX Requirements for Real Persona Vector Detection
+# For Apple Silicon Macs (M1/M2/M3/M4)
+
+# Core MLX libraries
+mlx>=0.5.0
+mlx-lm>=0.0.6
+
+# Supporting libraries
+numpy>=1.24.0
+transformers>=4.35.0
+huggingface-hub>=0.19.0
+
+# Optional but recommended for better performance
+sentencepiece>=0.1.99  # For tokenization
+safetensors>=0.4.0     # For efficient model loading
